@@ -1,3 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg{
+  background-image: url(../src/images/blue-stock-market-or-financial-chart-with-a-declining-trend-on-a-white-background-vector-2EMKBPB.jpg);
+}
+.bg1{
+  background-image: url(../public/blue-stock-market-or-financial-chart-with-a-declining-trend-on-a-white-background-vector-2EMKBPB.jpg);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

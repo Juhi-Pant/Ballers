@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Equal to width for square */
+}
+
+.chart-wrapper .recharts-responsive-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
